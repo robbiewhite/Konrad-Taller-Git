@@ -42,7 +42,7 @@ header
                 vertical-align: middle;
                 display: table-cell;
                 text-align: center;
-                color: #0B0B3B;
+                color: #0B0B61;
             }
 
     .Logo-images
@@ -54,11 +54,11 @@ header
     }
 
     
-            .Logo-images img
-            {
-                display: table;
-                margin: 0 auto;
-            }
+        .Logo-images img
+        {
+            display: table;
+            margin: 0 auto;
+        }
 section
 {
     
@@ -70,6 +70,8 @@ section
         width: 100%;
         height:55px;
         background-color: #79A8A9;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
         color: white;
     }
     
@@ -115,13 +117,16 @@ section
                     width: 100%;
                     height: 100%;
                 }
+                
+                
     
     .herramientas
     {
         position: relative;
         width: 100%;
         height: 220px;
-        border:solid 1px green; 
+        border-top:solid 1px transparent;
+        border-bottom:solid 1px transparent; 
     }
     
 footer
@@ -129,6 +134,7 @@ footer
     position: relative;
     width: 100%;
     height: 120px;
-    border: solid 1px red;
+    border-top:solid 1px transparent;
+    border-bottom: solid 1px transparent;
     background-color: #1F4E5F;
 }
