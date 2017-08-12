@@ -78,6 +78,13 @@ section
             font-family: 'Roboto', sans-serif;
             text-align: center;
         }
+        
+    .title_footer h4
+    {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: white;
+    }
     
     .temas
     {
